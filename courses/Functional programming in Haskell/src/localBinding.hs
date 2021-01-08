@@ -1,3 +1,5 @@
+module Demo where
+
 seqA :: Integer -> Integer
 seqA k  | k >= 0 && k < 3 = k+1
         | k < 0 = error "k must be more than 0"

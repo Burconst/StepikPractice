@@ -2,7 +2,7 @@ namespace src.IEnum
 {
     public static class SomeClass 
     {
-        private static void Display<T>(System.Collections.Generic.IEnumerable<T> values)
+        private static void Display<T>(System.Collections.Generic.IEnumerable<T> values) where T : class
         {
             var enumerator = values.GetEnumerator();
             try {

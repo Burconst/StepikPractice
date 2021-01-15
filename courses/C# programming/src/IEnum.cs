@@ -1,6 +1,6 @@
 namespace src.IEnum
 {
-    public class SomeClass 
+    public static class SomeClass 
     {
         private static void Display<T>(System.Collections.Generic.IEnumerable<T> values)
         {

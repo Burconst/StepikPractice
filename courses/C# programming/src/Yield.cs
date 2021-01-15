@@ -1,6 +1,6 @@
 namespace src.Yield
 {
-    public class SomeClass
+    public static class SomeClass
     {
         public static System.Collections.Generic.IEnumerable<long> Even()
         {
